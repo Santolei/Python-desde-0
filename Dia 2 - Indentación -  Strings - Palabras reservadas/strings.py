@@ -1,5 +1,4 @@
 # Un string es un conjunto de caracteres que se encierran en comillas dobles o simples.
-from typing import Tuple
 
 mi_string = "Hola, esto es un string"
 mi_string = " Este es un string \n que contiene saltos de linea\n como podes ver, "
