@@ -176,3 +176,33 @@ var = "Ahora soy un string"
 print(var)
 # Resultado => Ahora soy un string
 
+# =====================================
+# ==== EJERCICIO ======================
+
+#Crear dos variables numéricas, sumarlas y mostrar el resultado
+
+variable1 = 3
+variable2 = 1
+
+suma = variable1 + variable2
+
+print("La suma de ", variable1, "+", variable2, "=", suma)
+
+# Resultado => La suma de  3 + 1 = 4
+
+# =====================================
+# ==== EJERCICIO 2 ====================
+
+# Mostrar el precio del IVA de un producto con un valor de 100 y su precio final.
+
+IVA = 0.21
+
+precioProducto = 100
+
+precioIVA = precioProducto * IVA
+
+print("El precio del IVA es", precioIVA, "$")
+
+print("El precio final es $", (precioIVA + precioProducto))
+
+# Resultado => El precio final es $ 121.0
